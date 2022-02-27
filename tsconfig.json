@@ -3,7 +3,7 @@
     "target": "es2019",
     "module": "CommonJS",
     "lib": ["DOM", "ESNext"],
-    "outDir": "./dist/assets/js",
+    "outDir": "src/dist/assets/js",
     "rootDir": "./src",
     "removeComments": true,
     "noEmitOnError": true,
