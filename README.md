@@ -1,15 +1,45 @@
 # Formulario_Cadastro_TS
 
-## Formulário de cadastro criado aplicando alguns estudos que tenho feito em Typescript
+<fig>
+<img src="https://uploaddeimagens.com.br/images/003/751/622/original/Formulario-cadastro.jpeg?1646264412"
+</fig>
+ 
+ 
+## Descrição
+ 
+### Formulário de cadastro criado aplicando alguns estudos que tenho feito em Typescript
 
-## Valida campos:
+ [Acesse aqui](https://formulario-cadastro-ts.vercel.app/)
 
- ✔️ Campos obrigatórios
+## Ferramentas
+* [Vscode](https://code.visualstudio.com/) - IDE para desenvolvimento.
+ 
+## Inicialização
+Para iniciar o projeto, utilize:
+> npm install
 
- ✔️ Nome de usuário
+ 
 
- ✔️ Email (validator.js https://www.npmjs.com/package/validator  )
+### O sistema é composto por uma interface web. Funcionalidades principais:
 
- ✔️ Conferência senhas iguais
+▫️ Confere campos obrigatórios.
+ 
+▫️ Confere se as senhas inseridas batem.
+ 
+▫️ Confere formato de email.
 
-### Link: https://formulario-cadastro-ts.vercel.app/
+### As ferramentas utilizadas para front-end foram: 
+ 
+ ▫️ **HTML**
+ 
+ ▫️ **CSS** 
+ 
+ ▫️ **Bootstrap** 
+ 
+ ▫️ **Javascript** 
+  
+ ▫️ **Typescript** para tipagem estática. 
+ 
+  * [validatorjs](https://www.npmjs.com/package/validator) - Lib para validação de campo de email
+
+
