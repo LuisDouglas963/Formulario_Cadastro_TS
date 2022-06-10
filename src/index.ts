@@ -1,14 +1,15 @@
 import isEmail from "validator/lib/isEmail";
 
-const SHOW_ERROR_MESSAGES = "show-error-message";
+export const SHOW_ERROR_MESSAGES = "show-error-message"
 
-const form = document.querySelector(".form") as HTMLFormElement;
+
+export const form = document.querySelector(".form") as HTMLFormElement;
 const username = document.querySelector(".username") as HTMLInputElement;
 const email = document.querySelector(".email") as HTMLInputElement;
 const password = document.querySelector(".password") as HTMLInputElement;
 const password2 = document.querySelector(".password2") as HTMLInputElement;
 
-form.addEventListener("submit", function (event: Event) {
+form?.addEventListener("submit", function (event: Event){
   event.preventDefault();
   hideErrorMessage(this);
   checkForEmptyFields(username, password, password2);
@@ -50,10 +51,10 @@ function showErrorMessage(input: HTMLInputElement, msg: string): void {
   formFields.classList.add(SHOW_ERROR_MESSAGES);
 }
 
-function shoulSendForm(form: HTMLFormElement): boolean {
+export function shoulSendForm(form: HTMLFormElement): boolean {
   let send = true;
   form
-    .querySelectorAll("." + SHOW_ERROR_MESSAGES)
+    ?.querySelectorAll("." + SHOW_ERROR_MESSAGES)
     .forEach(() => (send = false));
   return send;
 }
